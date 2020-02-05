@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:padding="0dp">
+	
+    <TextView
+        android:id="@+id/time_display1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="22dp"
+		android:gravity="center_horizontal"
+        android:text="Pick time of first feeding"
+        android:textSize="24dp" />
+	<Button
+        android:id="@+id/select_button1"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PICK TIME"
+        android:textSize="20dp" />
+	
+    <TextView
+        android:id="@+id/time_display2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="Pick time of second feeding"
+        android:textSize="24dp" />
+	<Button
+        android:id="@+id/select_button2"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PICK TIME"
+        android:textSize="20dp" />
+	
+    <TextView
+        android:id="@+id/time_display3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="Pick time of third feeding"
+        android:textSize="24dp" />
+	<Button
+        android:id="@+id/select_button3"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PICK TIME"
+        android:textSize="20dp" />
+	
+    <TextView
+        android:id="@+id/time_display4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="Pick time of last feeding"
+        android:textSize="24dp" />
+	<Button
+        android:id="@+id/select_button4"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PICK TIME"
+        android:textSize="20dp" />
+	<Button
+		android:id="@+id/write_tag_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/button_write_new_tag"
+		android:layout_marginBottom="15dp"
+		android:padding="25dp"
+		android:textSize="15sp" />
+
+	<TextView
+		android:id="@+id/text_view"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:textSize="15sp" />
+</LinearLayout>
